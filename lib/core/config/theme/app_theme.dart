@@ -21,17 +21,17 @@ class AppTheme {
           ),
           contentPadding: const EdgeInsets.all(16),
           border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(4),
+              borderRadius: BorderRadius.circular(10),
               borderSide: BorderSide.none),
           enabledBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(4),
+              borderRadius: BorderRadius.circular(10),
               borderSide: BorderSide.none)),
       elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
               backgroundColor: AppColors.primary,
               elevation: 0,
               textStyle:
-                  const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+                  const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(100)))));
 }
